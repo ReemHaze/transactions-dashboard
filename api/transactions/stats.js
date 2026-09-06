@@ -1,4 +1,4 @@
-import { ALL_ROWS, withinDateRange } from "../_lib/data.js";
+import { ALL_ROWS, withinDateRange } from "../lib/data.js";
 
 export default function handler(req, res) {
   const { dateStart, dateEnd } = req.query;

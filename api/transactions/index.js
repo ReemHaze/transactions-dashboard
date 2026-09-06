@@ -1,4 +1,4 @@
-import { filterRows } from "../_lib/data.js";
+import { filterRows } from "../lib/data.js";
 
 export default function handler(req, res) {
   const page = Math.max(1, parseInt(req.query.page) || 1);
